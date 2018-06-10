@@ -3,4 +3,4 @@
 Todo list manage application in javascript. 
 
 ## Screen Shot
-![screenshot](screenshot.png)
+![screenshot](Screenshot.png)
