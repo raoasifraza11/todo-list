@@ -12,10 +12,12 @@ $('ul').on('click', 'li', function(){
 });
 
 // grabbing ul and update the span
-$('ul').on('click', 'span', function(){
+$('ul').on('click', 'span', function(e){
     $(this).parent().fadeOut(1000, function(){
         $(this).remove();
     });
+
+    e.stopPropagation();
 });
 
 // grab the input filed
