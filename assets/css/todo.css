@@ -1,0 +1,72 @@
+/*
+Theme Name: Todo list
+Author: Asif Raza
+Type: css
+Description: The theme for todo list.
+Version: 1.0
+*/
+body{
+    background: rgb(97,90,222);
+    background: linear-gradient(90deg, rgba(97,90,222,1) 0%, rgba(9,118,121,1) 44%, rgba(0,212,255,1) 100%);
+}
+
+h1 {
+    text-transform: uppercase;
+    margin: 0;
+    padding: 10px 10px 10px 40px;
+    background: skyblue;
+}
+
+input[type="text"]{
+    width: 530px;
+    box-sizing: border-box;
+    padding: 20px 20px 20px 40px;
+    color: rgb(83, 22, 228);
+    border-style: none;
+    background: #e4e3e3;
+}
+
+input[type="text"]::placeholder{
+    color: white;
+}
+
+
+.container{
+    width: 530px;
+    margin: 0 auto;
+    margin-top: 80px;
+    background: #fff;
+}
+
+.fa-plus{
+    float: right;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+.completed-task{
+    text-decoration-line: line-through;
+    color: red;
+}
+
+li span {
+    background: rgb(233, 44, 44);
+    color: white;
+    padding: 10px;
+}
+
+li{
+    list-style-type: none;
+    line-height: 40px;
+}
+
+
+li:nth-child(2n){
+    background: #e4e3e3;
+}
+
+li:hover{
+    cursor: default;
+}
