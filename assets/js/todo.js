@@ -13,7 +13,7 @@ $('ul').on('click', 'li', function(){
 
 // grabbing ul and update the span
 $('ul').on('click', 'span', function(e){
-    $(this).parent().fadeOut(1000, function(){
+    $(this).parent().fadeOut(500, function(){
         $(this).remove();
     });
 
